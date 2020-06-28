@@ -1,4 +1,4 @@
-import * as controller from "api/controllers/appController";
+import * as controller from "server/controllers/appController";
 import { match } from "path-to-regexp";
 
 const routes = {
