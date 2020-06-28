@@ -1,6 +1,6 @@
-import Shooting from "../model/appModelShootings.js";
-import Count from "../model/appModelCount.js";
-import Brutality from "../model/appModelBrutality.js";
+import Shooting from "api/model/appModelShootings.js";
+import Count from "api/model/appModelCount.js";
+import Brutality from "api/model/appModelBrutality.js";
 
 // COUNT APIs
 export const count_all_records = function (req, res) {
