@@ -7,7 +7,7 @@ import BrutalityOverTime from "components/widgets/BrutalityOverTime";
 import BrutalityMap from "components/widgets/BrutalityMap";
 import EnhancedTable from "components/widgets/TableData";
 import Last20Victims from "components/widgets/Last20Victims";
-import { getApiData } from "api/routes/appRoutes";
+import { getApiData } from "server/routes/appRoutes";
 
 export const getServerSideProps = async () => {
   const shootingsByState = await getApiData("count/shootings/state/name");
